@@ -54,14 +54,14 @@ class Ui_MainWindow(object):
                 "RoomUserWalk": 'Move',
                 "RoomPlaceItem": 'ActiveObjectAdd',
                 "UserTyping": 'UserStartTyping',
-                "RoomPlaceItem_Wired": 'ActiveObjectUpdate'
+                "RoomPlaceItem_Wired": 'ActiveSlideObjectBundle'
             }
         else:
             headers = {
                 "RoomUserWalk": 'MoveAvatar',
                 "RoomPlaceItem": 'ObjectAdd',
                 "UserTyping": 'StartTyping',
-                "RoomPlaceItem_Wired": 'ObjectUpdate'
+                "RoomPlaceItem_Wired": 'SlideObjectBundle'
             }
 
         self.prefix = "!"
